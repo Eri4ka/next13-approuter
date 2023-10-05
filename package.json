@@ -9,10 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/sortable": "^7.0.2",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.2",
-    "next": "13.5.2",
+    "next": "^13.5.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "swr": "^2.2.4"
+  },
+  "devDependencies": {
+    "prop-types": "^15.8.1",
+    "sass": "^1.68.0"
   }
 }

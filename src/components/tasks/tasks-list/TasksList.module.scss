@@ -1,0 +1,13 @@
+.wrapper {
+  background-color: var(--third-color);
+  border-radius: var(--border-radius);
+  padding: 15px;
+  flex: 1;
+  max-width: 400px;
+  height: 100%;
+}
+
+.list {
+  background-color: var(--primary-color);
+  border-radius: inherit;
+}

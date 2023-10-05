@@ -1,0 +1,20 @@
+.wrapper {
+  background-color: var(--third-color);
+  border-radius: var(--border-radius);
+  padding: 15px;
+  flex: 1;
+  max-width: 400px;
+  height: 100%;
+}
+
+.content {
+  background-color: var(--primary-color);
+  border-radius: inherit;
+  padding: 24px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}

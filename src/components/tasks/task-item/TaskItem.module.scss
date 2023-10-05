@@ -1,0 +1,13 @@
+.item {
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  cursor: pointer;
+
+  &_active {
+    cursor: grabbing;
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--border-radius);
+  }
+}
